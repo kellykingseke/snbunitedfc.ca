@@ -1,0 +1,93 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background-image: url("c.jpg");
+	height: 13vh;
+	background-size:cover;
+	background-position:center;
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li 
+{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 8px;
+}
+.main-nav li a hover{
+	background-color:white;
+}
+
+.main-nav li a
+{
+	color:white;
+	text-decoration:none;
+	padding:5px 20px;
+	font-size:15px;
+}
+.main-nav li.active a
+{
+	border:1px solid white;
+}
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left;
+	margin: 25px 50px;
+}
+body
+{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("f.jpg") ;
+	background-size: cover;
+	height: 100vh;
+	background-position:center;
+}
+h1
+{
+	text-align:center;
+	padding:20px;
+	color:white;
+}
+.register
+{
+	background:#808080;
+	width:500px;
+	margin:0px 0px 0px 430px;
+	color: white;
+	font-size:18px;
+	padding:20px;
+	border-radius: 10px;
+}
+h2
+{
+	text-align:center;
+	padding:20px;
+}
+label
+{
+	color:white;
+	font-size:18px;
+	font-style:bold;
+}
+.btn
+{
+	width:50%;
+	background:none;
+	border:2px solid;
+	color:white;
+	padding:5px;
+}
+.register table
+{
+	margin-left: auto;
+	margin-right:auto;
+}

@@ -1,0 +1,84 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("a.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-size:cover;
+	background-position:center;
+	
+}
+header
+{
+	background-image: url("c.jpg");
+	height: 13vh;
+	background-size:cover;
+	background-position:center;
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li 
+{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 8px;
+}
+.main-nav li a: hover{
+	background-color:white;
+}
+
+.main-nav li a
+{
+	color:white;
+	text-decoration:none;
+	padding:5px 20px;
+	font-size:15px;
+}
+.main-nav li.active a
+{
+	border:1px solid white;
+}
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left;
+	margin: 25px 50px;
+}
+article
+{
+	position: absolute;
+	width:1000;
+}
+h1
+{
+	color:white;
+	font-size:70px;
+	text-align:center;
+	text-transform: uppercase;
+	position: relative;
+	top: 40vh;
+	left:75vh;
+}
+h2
+{
+	color:white;
+	font-size:10px;
+	text-align:center;
+	text-transform: uppercase;
+	position: relative;
+	top: 81vh;
+	right:20vh;
+}
+#wrapper
+{
+	margin:0 auto;
+}

@@ -1,0 +1,105 @@
+margin: 0;
+	padding: 0;
+}
+body
+{
+	background-color:gray;
+}
+header
+{
+	background-image: url("c.jpg");
+	height: 13vh;
+	background-size:cover;
+	background-position:center;
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li 
+{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 8px;
+}
+.main-nav li a hover{
+	background-color:white;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size:15px;
+}
+.main-nav li.active a
+{
+	border:1px solid white;
+}
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left;
+	margin: 25px 50px;
+}
+body
+{
+	margin:0;
+	padding:0;
+	background: url(e.jpg) no-repeat;
+	background-size: cover;
+}
+.log-bpx
+{
+	width: 280px;
+	position: absolute;
+	top: 30vh;
+	left: 90vh;
+	color: white;
+}
+.log-bpx h1
+{
+	float: left;
+	font-size: 40px;
+	border-bottom: 6px solid;
+}
+.usrname
+{
+	width: 100%;
+	overflow: hidden;
+	font-size:20px;
+	padding:8px 0;
+	margin:8px 0;
+	border-bottom:1px solid;
+}
+.pswrd
+{
+	width: 100%;
+	overflow: hidden;
+	font-size:20px;
+	padding:8px 0;
+	margin:8px 0;
+	border-bottom:1px solid;
+}
+.usrname input
+{
+	border:none;
+	outline:none;
+	background:none;
+}
+.btn
+{
+	width:100%;
+	background:none;
+	border:2px solid;
+	color:white;
+	padding:5px;
+}
+h4 a
+{
+	color:white;
+}
